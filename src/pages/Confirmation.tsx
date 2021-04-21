@@ -12,6 +12,11 @@ import colors from '../styles/colors';
 import fonts from '../styles/fonts';
 
 export function Confirmation() {
+  const navigation = useNavigation();
+
+  function handleMoveOn() {
+    navigation.navigate('PlantSelect')
+  }
 
   return (
     <SafeAreaView style={styles.container}>
@@ -30,7 +35,7 @@ export function Confirmation() {
         </Text>
 
         <View style={styles.footer}>
-          <Button title="Comerçar"/>
+          <Button title="Comerçar" onPress={handleMoveOn}/>
         </View>
       </View>
     </SafeAreaView>
