@@ -5,4 +5,8 @@ Plant Manager é um projeto criado durante a NLW 5 (Next Level Week) uma semana 
 ## Sobre o projeto
 
 Plant Manager é um projeto da trilha de React Native com o intuito de demonstrar como criar aplicações cross-platform utilizando o framework React Native que utiliza a sixtase da biblioteca ReactJS e utilizando também o expo para facilitar o desenvolvimento.
+
+```bash
+json-server ./src/services/server.json  --host 192.168.1.3 --port 3333 --delay 750
+```
  
