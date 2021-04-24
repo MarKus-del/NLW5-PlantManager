@@ -23,10 +23,13 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.markusdel.plantmanager"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": "Projeto feito na NLW#5, que consistir e um projeto em react native para gerenciar plantinhas",
+    "githubUrl": "https://github.com/MarKus-del/NLW5-PlantManager"
   }
 }
