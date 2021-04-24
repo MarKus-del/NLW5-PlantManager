@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://192.168.1.3:3333'
+  baseURL: 'https://my-json-server.typicode.com/MarKus-del/NLW5-PlantManager'
 });
 
 export default api;
